@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Local secrets and environment overrides
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+credentials.json
+credentials-*.json
+
+# Local execution state and editor caches
+/data/*.db*
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite3-shm
+*.sqlite3-wal
+.langgraph_api/
+.ipynb_checkpoints/
+.DS_Store
